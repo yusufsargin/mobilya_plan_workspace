@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "mobilya-plan-workspace",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -10,7 +10,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "start:mp_three_app": "turbo run app/mp_three_app"
   },
   "devDependencies": {
     "prettier": "^2.5.1",
